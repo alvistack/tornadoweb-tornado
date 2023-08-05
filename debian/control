@@ -1,0 +1,29 @@
+Source: python-tornado
+Section: python
+Priority: optional
+Standards-Version: 4.5.0
+Maintainer: Wong Hoi Sing Edison <hswong3i@gmail.com>
+Homepage: https://github.com/tornadoweb/tornado/tags
+Vcs-Browser: https://github.com/alvistack/tornadoweb-tornado
+Vcs-Git: https://github.com/alvistack/tornadoweb-tornado.git
+Build-Depends:
+ debhelper,
+ debhelper-compat (= 10),
+ dh-python,
+ fdupes,
+ python3-dev,
+ python3-setuptools,
+
+Package: python3-tornado
+Architecture: amd64
+Description: Python web framework and asynchronous networking library
+ Tornado is a Python web framework and asynchronous networking library,
+ originally developed at FriendFeed. By using non-blocking network I/O,
+ Tornado can scale to tens of thousands of open connections, making it
+ ideal for long polling, WebSockets, and other applications that require
+ a long-lived connection to each user.
+Depends:
+ ${misc:Depends},
+ ${shlibs:Depends},
+ ${python3:Depends},
+ python3,
