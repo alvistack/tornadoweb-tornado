@@ -1,0 +1,5 @@
+python-tornado source: file-without-copyright-information
+python-tornado source: no-debian-changes
+python-tornado source: source-contains-prebuilt-windows-binary
+python-tornado source: source-is-missing
+python-tornado source: source-package-encodes-python-version
