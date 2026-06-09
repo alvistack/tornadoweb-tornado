@@ -1,0 +1,4 @@
+python3-tornado: copyright-without-copyright-notice
+python3-tornado: initial-upload-closes-no-bugs
+python3-tornado: no-manual-page
+python3-tornado: zero-byte-file-in-doc-directory
